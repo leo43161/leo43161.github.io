@@ -12,6 +12,12 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/bbb52c970c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_Uc1j366cDdFEzPicrbzIl");
+        })();
+    </script>
 </head>
 
 <body>
@@ -183,22 +189,40 @@
         <h2 class="display-4 text-center my-4" id="contacto">Contactame</h2>
         <hr>
         <article>
-            <form class="shadow p-3 mb-5 bg-white rounded bg-blacklight text-dark">
+            <form class="shadow p-3 mb-5 bg-white rounded bg-blacklight text-dark" onsubmit="validar(event)">
                 <div class="form-group">
                     <label>Nombre o empresa</label>
-                    <input type="text" placeholder="Rolling Code, Globant, Steve Jobs" required class="form-control">
+                    <input type="text" placeholder="Rolling Code, Globant, Steve Jobs" required class="form-control"
+                        id="nombre" onblur="revisar(this)" onkeyup="revisar(this)">
+                    <div class="invalid-feedback">
+                        Ingrese un nombre
+                    </div>
                 </div>
                 <div class="form-group">
                     <label>Asunto</label>
-                    <input type="text" class="form-control" placeholder="Trabajo, Consulta">
+                    <input type="text" class="form-control" placeholder="Trabajo, Consulta" id="asunto"
+                        onblur="revisar(this)" onkeyup="revisar(this)">
+                    <div class="invalid-feedback">
+                        Ingrese un asunto
+                    </div>
                 </div>
                 <div class="form-group">
                     <label>Email</label>
-                    <input type="email" placeholder="empresa@email.com" required class="form-control">
+                    <input type="email" placeholder="empresa@email.com" required class="form-control"
+                        onblur="revisarEmail(this)" id="email">
+                    <div class="invalid-feedback">
+                        Ingrese un Email valido
+                    </div>
                 </div>
                 <div class="form-group">
                     <label>Mensaje</label>
-                    <textarea rows="4" placeholder="Ingrese su Mensaje" required class="form-control"></textarea>
+                    <textarea rows="4" placeholder="Ingrese su Mensaje" required class="form-control"
+                        onkeyup="revisarLongitud(this)" id="mensaje"></textarea>
+                    <div class="invalid-feedback">
+                        Ingrese mas 10 carcateres
+                    </div>
+                </div>
+                <div class="alert alert-success d-none" role="alert" id="verificacion">
                 </div>
                 <button type="submit" class="btn btn-primary text-light">Enviar</button>
             </form>
@@ -316,6 +340,7 @@
         </div>
     </div>
 
+    <script src="js/formulario.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
