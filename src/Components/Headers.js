@@ -22,7 +22,7 @@ const Headers = () => {
           </h5>
           <div className="d-flex">
             <FontAwesomeIcon icon={faLinkedin} size="2x"></FontAwesomeIcon>
-            <p></p>
+            <a className="text-light d-flex align-items-center ml-2" href="https://www.linkedin.com/in/leonardo-palavecino-5a01a11b7">Leonardo Palavecino</a>
           </div>
         </div>
         <div className="h-100 d-flex bg-blue text-white flex-column justify-content-center px-3">
