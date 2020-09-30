@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Assets/css/font.css";
 import Headers from "./Components/Headers";
 import SobreMi from "./Components/SobreMi";
+import Experiencia from "./Components/Experiencia";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
       </section>
       <section className="d-flex px-3 py-2">
         <div className="col-7 p-0 shadow border border-dark">
-          
+          <Experiencia></Experiencia>
         </div>
         <div className="col-5 pl-3 pr-0 border border-dark">
 
