@@ -5,6 +5,7 @@ import "./Assets/css/font.css";
 import Headers from "./Components/Headers";
 import SobreMi from "./Components/SobreMi";
 import Experiencia from "./Components/Experiencia";
+import Habilidades from "./Components/Habilidades";
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
           <Experiencia></Experiencia>
         </div>
         <div className="col-5 pl-3 pr-0 border border-dark">
-
+          <Habilidades></Habilidades>
         </div>
       </section>
     </div>
