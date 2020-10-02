@@ -4,7 +4,7 @@ import CardExperiencia from "./CardExperiencia";
 const Experiencia = () => {
   return (
     <div className="owsla bg-blue">
-      <div className="w-100 border-bottom text-white">
+      <div className="w-100 text-white">
         <h2 className="text-center">Experiencia Laboral</h2>
       </div>
       <CardExperiencia

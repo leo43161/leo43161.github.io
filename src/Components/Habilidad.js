@@ -1,15 +1,14 @@
 import React from "react";
 
-const Habilidad = () => {
+const Habilidad = (props) => {
   return (
     <div className="px-2 py-3 border-bottom">
-      <h4>Css:</h4>
+      <h4>{props.habilidad}</h4>
       <div className="progress">
         <div
           className="progress-bar bg-black"
           role="progressbar"
-          style={{width: `${"25"}%`}}
-          aria-valuenow="25"
+          style={{width: `${props.porcentaje}%`}}
           aria-valuemin="0"
           aria-valuemax="100"
         ></div>
