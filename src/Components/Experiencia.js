@@ -3,7 +3,7 @@ import CardExperiencia from "./CardExperiencia";
 
 const Experiencia = () => {
   return (
-    <div className="owsla bg-blue">
+    <div className="owsla bg-blue shadow">
       <div className="w-100 text-white">
         <h2 className="text-center">Experiencia Laboral</h2>
       </div>

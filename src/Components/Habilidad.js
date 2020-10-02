@@ -2,8 +2,8 @@ import React from "react";
 
 const Habilidad = (props) => {
   return (
-    <div className="px-2 py-3 border-bottom">
-      <h4>{props.habilidad}</h4>
+    <div className="px-3 py-3 col-5 rounded border shadow-sm text-black mb-3">
+      <h4>{props.nombre}</h4>
       <div className="progress">
         <div
           className="progress-bar bg-black"
