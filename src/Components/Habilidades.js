@@ -7,17 +7,17 @@ const Habilidades = () => {
       <div className="w-100 border-bottom text-black">
         <h2 className="text-center">Habilidades</h2>
       </div>
-      <div className="w-100 d-flex mt-3 flex-wrap justify-content-around">
+      <div className="w-100 d-flex mt-4 flex-wrap justify-content-around">
         <Habilidad nombre="Ingles" porcentaje={18}></Habilidad>
-        <Habilidad nombre="Html" porcentaje={50}></Habilidad>
-        <Habilidad nombre="Css" porcentaje={50}></Habilidad>
+        <Habilidad nombre="Html" porcentaje={70}></Habilidad>
+        <Habilidad nombre="Css" porcentaje={60}></Habilidad>
         <Habilidad nombre="JavaScript" porcentaje={50}></Habilidad>
-        <Habilidad nombre="Git" porcentaje={50}></Habilidad>
-        <Habilidad nombre="Node Js" porcentaje={50}></Habilidad>
+        <Habilidad nombre="Git" porcentaje={35}></Habilidad>
+        <Habilidad nombre="Node Js" porcentaje={30}></Habilidad>
         <Habilidad nombre="React Js" porcentaje={50}></Habilidad>
-        <Habilidad nombre="Express" porcentaje={50}></Habilidad>
-        <Habilidad nombre="Mongo DB" porcentaje={50}></Habilidad>
-        <Habilidad nombre="Office" porcentaje={50}></Habilidad>
+        <Habilidad nombre="Express" porcentaje={20}></Habilidad>
+        <Habilidad nombre="Mongo DB" porcentaje={35}></Habilidad>
+        <Habilidad nombre="Office" porcentaje={80}></Habilidad>
       </div>
     </div>
   );
