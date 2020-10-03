@@ -20,7 +20,7 @@ function App() {
         </div>
       </section>
       <section className="d-flex px-3 py-2">
-        <div className="col-7 p-0 shadow bg-blue">
+        <div className="col-7 p-0 shadow">
           <Experiencia></Experiencia>
         </div>
         <div className="col-5 pl-3 pr-0">
@@ -29,9 +29,9 @@ function App() {
       </section>
       <section className="d-flex px-3 py-2">
         <div className="col-7 p-0 shadow">
-          <Experiencia titulo=""></Experiencia>
+          <Experiencia></Experiencia>
         </div>
-        <div className="col-5 pl-3 pr-0">
+        <div className="col-5 pl-3 pr-0 shadow">
           <Contactame></Contactame>
         </div>
       </section>
