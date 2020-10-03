@@ -17,7 +17,7 @@ const Habilidades = () => {
         <Habilidad nombre="React Js" porcentaje={50}></Habilidad>
         <Habilidad nombre="Express" porcentaje={20}></Habilidad>
         <Habilidad nombre="Mongo DB" porcentaje={35}></Habilidad>
-        <Habilidad nombre="Office" porcentaje={80}></Habilidad>
+        <Habilidad nombre="Office" porcentaje={75}></Habilidad>
       </div>
     </div>
   );
