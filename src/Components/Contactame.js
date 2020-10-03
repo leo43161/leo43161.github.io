@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import Alert from "react-bootstrap/Alert";
 import Button from "react-bootstrap/Button";
+import emailjs from "emailjs-com/dist/email";
 
 const Contactame = () => {
   const [datos, setDatos] = useState({
@@ -12,6 +13,7 @@ const Contactame = () => {
   });
 
   const [error, setError] = useState(false);
+  const [enviado, setEnviado] = useState(false);
 
   const [msjError, setMsjError] = useState("");
 
@@ -43,10 +45,32 @@ const Contactame = () => {
       return;
     }
     setError(false);
+
+    const templateParams = {
+      to_name: "Leonardo",
+      from_issue: datos.asunto,
+      from_name: datos.nombre,
+      message_html: datos.mensaje,
+      reply_to: datos.email,
+    };
+
+    emailjs.init("user_Uc1j366cDdFEzPicrbzIl");
+
+    emailjs.send("service_dqyemva", "template_67mj8aam", templateParams).then(
+      function (response) {
+        setEnviado(true);
+        console.log("SUCCESS!", response.status, response.text);
+      },
+      function (error) {
+        setError(true);
+        setMsjError("No se a podido enviar el Correo")
+        console.log("FAILED...", error);
+      }
+    );
   };
 
   return (
-    <div className="bg-white w-100 h-100 border d-flex flex-column">
+    <div className="bg-white w-100 h-100 border d-flex flex-column owsla">
       <div className="w-100 border-bottom text-black">
         <h2 className="text-center">Contactame</h2>
       </div>
@@ -95,7 +119,7 @@ const Contactame = () => {
             />
           </Form.Group>
 
-          {error ? <Alert variant="danger">{msjError}</Alert> : null}
+          {error || enviado ? <Alert variant={error ? "danger" : (enviado ? "success": "light")}>{error ? msjError : (enviado ? "Mensaje enviado": null)}</Alert> : null}
 
           <Button className="bg-blue" type="submit">
             Enviar
