@@ -7,7 +7,7 @@ import SobreMi from "./Components/SobreMi";
 import Experiencia from "./Components/Experiencia";
 import Habilidades from "./Components/Habilidades";
 import Contactame from "./Components/Contactame";
-import Portafolio from "./Components/Portafolio";
+import Portafolio from "./Components/Portafolio/Portafolio";
 
 function App() {
   return (
