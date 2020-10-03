@@ -1,0 +1,14 @@
+.img-diseño:hover img {
+  filter: blur(1px);
+  transform: scale(1.04);
+  transition: 500ms;
+}
+
+.img-diseño a {
+  filter: opacity(0);
+}
+.img-diseño:hover a {
+  filter: opacity(1);
+  transform: scale(1.05);
+  transition: 500ms;
+}
