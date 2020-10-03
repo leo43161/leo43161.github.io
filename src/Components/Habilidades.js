@@ -3,7 +3,7 @@ import Habilidad from "./Habilidad";
 
 const Habilidades = () => {
   return (
-    <div className="owsla h-100 text-white border shadow">
+    <div className="owsla h-100 text-white border shadow bg-light">
       <div className="w-100 border-bottom text-black">
         <h2 className="text-center">Habilidades</h2>
       </div>
