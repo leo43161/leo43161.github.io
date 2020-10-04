@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 
 const Diseños = (props) => {
   return (
-    <div className="col-12 shadow d-flex p-0 bg-blue text-light">
+    <div className="shadow d-flex p-0 bg-blue text-light mt-2 diseño">
       <div className="col-8 py-3 px-0 d-flex flex-column justify-content-around">
         <div>
           <h2 className="bg-black w-100 pl-4 py-2">{props.nombre}</h2>

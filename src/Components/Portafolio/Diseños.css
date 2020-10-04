@@ -6,6 +6,11 @@
 .img-diseño a {
   filter: opacity(0);
 }
+
+.diseño {
+  height: 425px!important;
+}
+
 .img-diseño:hover a {
   filter: opacity(1);
   transform: scale(1.05);
