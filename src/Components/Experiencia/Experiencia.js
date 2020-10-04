@@ -1,5 +1,6 @@
 import React from "react";
 import CardExperiencia from "./CardExperiencia";
+import './Experiencia.css';
 
 const Experiencia = () => {
   return (

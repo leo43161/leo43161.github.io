@@ -8,7 +8,7 @@
 }
 
 .diseño {
-  height: 425px!important;
+  height: 425px !important;
 }
 
 .img-diseño:hover a {
@@ -17,4 +17,9 @@
   transition: 500ms;
   text-shadow: 1px 1px rgb(0, 0, 0), 1px 1px rgb(0, 0, 0), 1px 1px rgb(0, 0, 0),
     1px 1px rgb(0, 0, 0);
+}
+@media (max-width: 575.98px) {
+  p {
+    font-size: 13px;
+  }
 }

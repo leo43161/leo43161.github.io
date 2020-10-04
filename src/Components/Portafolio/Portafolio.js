@@ -11,7 +11,7 @@ import {
 
 const Portafolio = () => {
   return (
-    <div className="w-100 d-flex flex-column flex-lg-row">
+    <div className="w-100 d-flex flex-column justify-content-between flex-lg-row">
       <div className="d-flex flex-column col-lg-6 col-12 p-0">
         {/* 1 */}
         <Diseños
@@ -125,7 +125,7 @@ const Portafolio = () => {
           }
         ></Diseños>
       </div>
-      <div className="d-flex flex-column pl-2 col-lg-6 col-12 p-0">
+      <div className="d-flex flex-column pl-lg-2 pl-0 col-lg-6 col-12 p-0">
         {/* 2 */}
         <Diseños
           nombre="Fratom Chocolates"

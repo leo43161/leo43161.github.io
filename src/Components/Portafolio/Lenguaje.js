@@ -8,7 +8,7 @@ const Lenguaje = (props) => {
       style={{ backgroundColor: props.color}}
     >
       <FontAwesomeIcon
-        className="mr-3"
+        className="mr-md-3 mr-1"
         icon={props.icono}
         size="2x"
       ></FontAwesomeIcon>
