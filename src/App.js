@@ -8,6 +8,7 @@ import Experiencia from "./Components/Experiencia/Experiencia";
 import Habilidades from "./Components/Habilidades";
 import Contactame from "./Components/Contactame";
 import Portafolio from "./Components/Portafolio/Portafolio";
+import Formacion from "./Components/Formacion/Formacion";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         </div>
       </section>
       <section className="d-flex flex-wrap px-3 py-2">
-        <div className="col-lg-7 col-12 p-0 shadow">
+        <div className="col-lg-7 col-12 p-0 shadow bg-blue">
           <Experiencia></Experiencia>
         </div>
         <div className="col-lg-5 col-12 pl-3 pr-0 mt-3 mt-lg-0">
@@ -29,8 +30,8 @@ function App() {
         </div>
       </section>
       <section className="d-flex flex-wrap px-3 py-2">
-        <div className="col-lg-7 col-12 p-0 shadow">
-          <Experiencia></Experiencia>
+        <div className="col-lg-7 col-12 p-0 shadow bg-blue">
+          <Formacion></Formacion>
         </div>
         <div className="col-lg-5 col-12 pl-3 pr-0 shadow mt-3 mt-lg-0">
           <Contactame></Contactame>
