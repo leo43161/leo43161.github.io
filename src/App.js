@@ -36,8 +36,8 @@ function App() {
           <Contactame></Contactame>
         </div>
       </section>
-      <section className="w-100">
-        <div className="text-center">
+      <section className="w-100 mt-2">
+        <div className="text-center px-3">
           <h1>Portfolio</h1>
           <hr></hr>
         </div>
