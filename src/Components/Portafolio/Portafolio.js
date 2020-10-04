@@ -97,12 +97,18 @@ const Portafolio = () => {
         ></Diseños>
         {/* 7 */}
         <Diseños
-          nombre="Cocu"
-          descripcion="Aquí realicé el maquetado de una paguina con varias paguinas donde empecé a implementar el framework bootstrap, realizando experimentaciones con css y sus efectos."
-          imagen="cocu"
-          url="https://pana321.netlify.app/index.html"
+          nombre="Rolling Movie"
+          descripcion="Despues de practicar con JavaScript, avanzamos aprendiendo a usar WebPack y LocalStorage como metodo de almacenamiento local y asi poder realizar un alta baja y edicion de objetos (Productos, Usuarios, Peliculas etc...) Este proyecto se realizo con 3 compañeron donde el objetivo es crear una paguina para ver series y peliculas, donde existira un admin que pueda subir, eliminar y editar, peliculas y categorias, ademas de poner inciar sesion y registrarse"
+          imagen="rollingMovie"
+          url="https://rolling-movies.netlify.app/index.html"
           lenguajes={
             <Fragment>
+              <Lenguaje
+                width={"100"}
+                color={"#CFB430"}
+                icono={faJsSquare}
+                lenguaje="JavaScript"
+              ></Lenguaje>
               <Lenguaje
                 width={"50"}
                 color={"#DD4B25"}
@@ -114,12 +120,6 @@ const Portafolio = () => {
                 color={"#1F5FAA"}
                 icono={faCss3Alt}
                 lenguaje="CSS"
-              ></Lenguaje>
-              <Lenguaje
-                width={"100"}
-                color={"#7952B3"}
-                icono={faBootstrap}
-                lenguaje="Bootstrap"
               ></Lenguaje>
             </Fragment>
           }

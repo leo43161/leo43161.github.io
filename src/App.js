@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Assets/css/font.css";
 import Headers from "./Components/Headers";
 import SobreMi from "./Components/SobreMi";
-import Experiencia from "./Components/Experiencia";
+import Experiencia from "./Components/Experiencia/Experiencia";
 import Habilidades from "./Components/Habilidades";
 import Contactame from "./Components/Contactame";
 import Portafolio from "./Components/Portafolio/Portafolio";
