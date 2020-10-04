@@ -17,7 +17,7 @@ function App() {
         <div className="col-lg-7 col-12 p-0 shadow">
           <Headers></Headers>
         </div>
-        <div className="col-lg-5 col-12 pl-3 pr-0 mt-3 mt-lg-0">
+        <div className="col-lg-5 col-12 pl-0 pl-lg-3 pr-0 mt-3 mt-lg-0">
           <SobreMi></SobreMi>
         </div>
       </section>
@@ -25,7 +25,7 @@ function App() {
         <div className="col-lg-7 col-12 p-0 shadow bg-blue">
           <Experiencia></Experiencia>
         </div>
-        <div className="col-lg-5 col-12 pl-3 pr-0 mt-3 mt-lg-0">
+        <div className="col-lg-5 col-12 pl-0 pl-lg-3 pr-0 mt-3 mt-lg-0">
           <Habilidades></Habilidades>
         </div>
       </section>
@@ -33,7 +33,7 @@ function App() {
         <div className="col-lg-7 col-12 p-0 shadow bg-blue">
           <Formacion></Formacion>
         </div>
-        <div className="col-lg-5 col-12 pl-3 pr-0 shadow mt-3 mt-lg-0">
+        <div className="col-lg-5 col-12 pl-0 pl-lg-3 pr-0 shadow mt-3 mt-lg-0">
           <Contactame></Contactame>
         </div>
       </section>
