@@ -12,27 +12,27 @@ import Portafolio from "./Components/Portafolio/Portafolio";
 function App() {
   return (
     <div className="owsla">
-      <section className="d-flex px-3 py-2">
-        <div className="col-7 p-0 shadow">
+      <section className="d-flex flex-wrap px-3 py-2">
+        <div className="col-lg-7 col-12 p-0 shadow">
           <Headers></Headers>
         </div>
-        <div className="col-5 pl-3 pr-0">
+        <div className="col-lg-5 col-12 pl-3 pr-0 mt-3 mt-lg-0">
           <SobreMi></SobreMi>
         </div>
       </section>
-      <section className="d-flex px-3 py-2">
-        <div className="col-7 p-0 shadow">
+      <section className="d-flex flex-wrap px-3 py-2">
+        <div className="col-lg-7 col-12 p-0 shadow">
           <Experiencia></Experiencia>
         </div>
-        <div className="col-5 pl-3 pr-0">
+        <div className="col-lg-5 col-12 pl-3 pr-0 mt-3 mt-lg-0">
           <Habilidades></Habilidades>
         </div>
       </section>
-      <section className="d-flex px-3 py-2">
-        <div className="col-7 p-0 shadow">
+      <section className="d-flex flex-wrap px-3 py-2">
+        <div className="col-lg-7 col-12 p-0 shadow">
           <Experiencia></Experiencia>
         </div>
-        <div className="col-5 pl-3 pr-0 shadow">
+        <div className="col-lg-5 col-12 pl-3 pr-0 shadow mt-3 mt-lg-0">
           <Contactame></Contactame>
         </div>
       </section>
@@ -41,7 +41,7 @@ function App() {
           <h1>Portfolio</h1>
           <hr></hr>
         </div>
-        <div className="container-fluid">
+        <div className="container-fluid px-0">
           <Portafolio></Portafolio>
         </div>
       </section>
