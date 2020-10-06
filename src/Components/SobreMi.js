@@ -15,7 +15,7 @@ const SobreMi = () => {
             <p style={{fontSize:"19px"}}>
             Hola soy Leonardo, como recién graduado y de terminar mis estudios como programador Full Stack, me gustaría ser parte de un equipo de trabajo, para poder seguir avanzando y desarrollando mis habilidades, aportando mis conocimientos y métodos en la materia. <br/>
             Gracias a mi formación me considero alguien listo para aportar y manejar situaciones de trabajo, ya sea en unidad y/o en equipo. <br/> <br/>
-            Soy alguien pro activo y auto critico de mis actividades. Internalizo rapido el aprendizaje, me adapto a cualquier ambiente, me gusta aprender de todos y siempre, en lo posible, estoy dispuesto a ayudar a quien lo necesite. 
+            Soy alguien pro activo y auto crítico de mis actividades. Internalizo el aprendizaje de forma ágil, me adapto a cualquier ambiente, me gusta aprender de todos y siempre, en lo posible, estoy dispuesto a ayudar a quien lo necesite. 
             </p>
           </div>
         </div>

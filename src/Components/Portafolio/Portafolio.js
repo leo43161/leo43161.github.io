@@ -20,7 +20,7 @@ const Portafolio = () => {
         {/* 1 */}
         <Diseños
           nombre="Galeria"
-          descripcion="Fue de los primeros ejercicios que nos dieron, pasando 2 semanas de clases, aplicamos 
+          descripcion="Fué de los primeros ejercicios que nos dieron, pasando 2 semanas de clases, aplicamos 
           el lenguaje css y html, en donde jugamos un poco con los efectos de css."
           imagen="galeria"
           url="https://elegant-galery.netlify.app/"
@@ -102,7 +102,7 @@ const Portafolio = () => {
         {/* 7 */}
         <Diseños
           nombre="Rolling Movie"
-          descripcion="Después de practicar con JavaScript, avanzamos usando WebPack y LocalStorage como método de almacenamiento local y así poder realizar un alta baja y edición de objetos (Productos, Usuarios, Películas etc...) Este proyecto se realizó con 3 compañeron donde el objetivo era crear una página para ver series y peliculas, donde existe un admin que puede subir, eliminar y editar, peliculas y categorías, además de poder inciar sesión y registrarse"
+          descripcion="Después de practicar con JavaScript, avanzamos usando WebPack y LocalStorage como método de almacenamiento local y así poder realizar un alta, baja y edición de objetos (Productos, Usuarios, Películas etc...) Este proyecto se realizó con 3 compañeron donde el objetivo era crear una página para ver series y peliculas, donde existe un administrador que puede subir, eliminar y editar, peliculas y categorías, además de poder inciar sesión y registrarse"
           imagen="rollingMovie"
           url="https://rolling-movies.netlify.app/index.html"
           lenguajes={
@@ -130,7 +130,7 @@ const Portafolio = () => {
         ></Diseños>
         <Diseños
           nombre="Rolling News"
-          descripcion="Se desarrolló una página web creando un servidor y una base de datos, utilizando Node js, Express y Mongo DB, ademas de lo ya implementado en proyectos anteriores, dicho proyecto está en proceso de finalización, en el cual nos desempeñamos 5 alumnos (incluyendome), en donde fuí seleccionado scrum master, cumpliendo hasta la fecha los requisitos mínimos"
+          descripcion="Se desarrolló una página web creando un servidor y una base de datos, utilizando Node js, Express y Mongo DB, además de lo ya implementado en proyectos anteriores, dicho proyecto está en proceso de finalización, en el cual nos desempeñamos 5 alumnos (incluyendome), en donde fuí seleccionado scrum master, cumpliendo hasta la fecha los requisitos mínimos"
           imagen="rollingNews"
           url="https://news-rolling.netlify.app/"
           lenguajes={
@@ -191,8 +191,8 @@ const Portafolio = () => {
         <Diseños
           nombre="Cinema"
           descripcion="Este fué el primer proyecto que hicimos en el curso de FullStack, el
-        cual se basó en un blog de peliculas, donde realizamos
-        reseñas de peliculas o series que nos gustaron y nos parecieron
+        cual se basó en un blog de películas, donde realizamos
+        reseñas de películas o series que nos gustaron y nos parecieron
         interesantes. Para realizar este proyecto tuvimos una semana, en la cual
         aplicamos el conocimiento que nos impartieron durante un mes de clase de CSS,
         HTML y Bootstrap, lo llevamos a cabo con un grupo de 4 personas
@@ -282,7 +282,7 @@ const Portafolio = () => {
         ></Diseños>
         <Proximamente
           nombre="Proximamente..."
-          descripcion="Mis aspiraciones son seguir profundizando mis habilidades en el ámbito de la programación, el frontend añadiendo más experiencia al diseño y en el backend al crear servidores, mejorar la seguridad de mis proyectos futuros y manejar con más eficiencia mis datos. También me interesaría aprender otros leguajes de programación, después de perfeccionarme para lo que estoy capacitado."
+          descripcion="Mis aspiraciones son seguir especializandome en el ámbito de la programación, el frontend añadiendo más experiencia al diseño y en el backend al crear servidores, mejorar la seguridad de mis proyectos futuros y manejar con más eficiencia mis datos. También me interesaría aprender otros leguajes de programación, después de perfeccionarme para lo que estoy capacitado."
         ></Proximamente>
       </div>
     </div>
