@@ -17,7 +17,7 @@ const Headers = () => {
         <div className="w-100 py-2 pl-3 bg-blue text-white border-bottom">
           <h1 className="m-0">Leonardo Palavecino</h1>
           <h5 className="font-weight-light font-small p-1 bg-black">
-            <em>Programador Web</em>
+            <em>Programador Web (Junior)</em>
           </h5>
           <div className="d-flex justify-content-between">
             <div className="d-flex">
