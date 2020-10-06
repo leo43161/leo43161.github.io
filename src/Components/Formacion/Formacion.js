@@ -17,9 +17,17 @@ const Formacion = () => {
       <FormacionCard
         academia="Escuela Tecnica N°1"
         titulo="Tecnico en Informatica Profesional y Personal"
-        descripcion="En 4° año de secundario elegui seguir la orientacion de informatica, en la cual aprendi aprendi todo lo necesario para poder ampliar mi conocimiento en el area de programacion, computacion, pensamiento logico, matematicas y ademas de ayudarme a decidir para donde apuntar en mi futuro."
+        descripcion="En 4° año de secundario eleguí seguir la orientacion de informatica, en la cual aprendí todo lo necesario para poder ampliar mi conocimiento en el area de programacion, computación, pensamiento lógico, matemáticas y ademas de ayudarme a decidir para donde apuntar en mi futuro."
         tiempo="02/03/2015 - 13/12/2019"
         lugar="Monteros - Tucuman - Argentina"
+      ></FormacionCard>
+      <FormacionCard
+        academia="Escuela Tecnica N°1"
+        titulo="English for work Level: Beginners"
+        descripcion="Este curso explica lo esencial de la gramática y el vocabulario – y además, la
+        pronunciación, realizando clases practicas, mucha conversacion, lectura de textos simples y trabajo con video y audio."
+        tiempo="12/06/2020 - En proceso..."
+        lugar="San Miguel de Tucuman - Tucuman - Argentina"
       ></FormacionCard>
     </div>
   );

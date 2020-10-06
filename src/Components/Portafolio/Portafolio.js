@@ -7,12 +7,16 @@ import {
   faBootstrap,
   faJsSquare,
   faReact,
+  faNodeJs,
+  faEnvira,
+  faEtsy
 } from "@fortawesome/free-brands-svg-icons";
+import Proximamente from "./Proximamente";
 
 const Portafolio = () => {
   return (
-    <div className="w-100 d-flex flex-column justify-content-between flex-lg-row">
-      <div className="d-flex flex-column col-lg-6 col-12 p-0">
+    <div className="w-100 d-flex flex-column justify-content-between flex-lg-row flex-lg-wrap mb-2">
+      <div className="d-flex flex-column col-lg-6 col-12 p-0 mb-2 mb-md-0">
         {/* 1 */}
         <Diseños
           nombre="Galeria"
@@ -124,6 +128,40 @@ const Portafolio = () => {
             </Fragment>
           }
         ></Diseños>
+        <Diseños
+          nombre="Rolling News"
+          descripcion="Este fue nuestro proyecto final, donde se nos dio una serie de requisitos minimos, el cual cumplimos, pero aun no esta terminada, hay que arreglar varios errores (bugs).En este proyecto nos decempeñamos 5 alumnos (incluyendome), en el cual me eligieron scrum master, tuvimos problemas de tiempo y uno de mis compañeros no pudo participar y se bajo del proyecto, pero a pesar de eso, pudimos realizar un proyecto decente, creando un servidor y una base de datos, utilizando Node js, Express y Mongo DB y habiendo utilizado lo ya aprendido en clases anteriores"
+          imagen="rollingNews"
+          url="https://rolling-movies.netlify.app/index.html"
+          lenguajes={
+            <Fragment>
+              <Lenguaje
+                width={"50"}
+                color={"#17B6E7"}
+                icono={faReact}
+                lenguaje="React JS"
+              ></Lenguaje>
+              <Lenguaje
+                width={"50"}
+                color={"#95BA4A"}
+                icono={faNodeJs}
+                lenguaje="Node JS"
+              ></Lenguaje>
+              <Lenguaje
+                width={"50"}
+                color={"#389643"}
+                icono={faEnvira}
+                lenguaje="Mongo DB"
+              ></Lenguaje>
+              <Lenguaje
+                width={"50"}
+                color={"#C6786C"}
+                icono={faEtsy}
+                lenguaje="Express"
+              ></Lenguaje>
+            </Fragment>
+          }
+        ></Diseños>
       </div>
       <div className="d-flex flex-column pl-lg-2 pl-0 col-lg-6 col-12 p-0">
         {/* 2 */}
@@ -216,7 +254,7 @@ const Portafolio = () => {
         {/* 8 */}
         <Diseños
           nombre="App Clima"
-          descripcion="Despues de practicar los conceptos necesarios para entender react, empexamos a consumir APIs, esta es una de las que empezamos a usar, es una app web donde colocamos la ciudad y el pais y te muestra el clima del lugar."
+          descripcion="Despues de practicar los conceptos necesarios para entender react, empexamos a consumir APIs, esta es una de las que empezamos a usar, es una app web donde colocamos la ciudad, el pais y te muestra el clima del lugar."
           imagen="appClima"
           url="https://app-clima-leo.netlify.app/"
           lenguajes={
@@ -242,6 +280,10 @@ const Portafolio = () => {
             </Fragment>
           }
         ></Diseños>
+        <Proximamente
+          nombre="Proximamente..."
+          descripcion="Planeo seguir aumentando mis habilidades en el hambito de la programacion, el fronten añadiendo mas experiencia al diseño y en el backend al manejar datos, crear servidores, mejorar la seguridad de mis proyectos futuros y manejar mejor mis datos. Tambien me interesaría aprender otros leguajes de programacion, despues de profundizar en los que ya conozco."
+        ></Proximamente>
       </div>
     </div>
   );
