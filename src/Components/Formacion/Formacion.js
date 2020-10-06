@@ -17,7 +17,7 @@ const Formacion = () => {
       <FormacionCard
         academia="Escuela Tecnica N°1"
         titulo="Tecnico en Informatica Profesional y Personal"
-        descripcion="Un curso de programacion FullStack donde aprendí a manejar el frontend y backend de un sistema orientado en paguinas web, ademas de enseñarnos a trabajar en una metodologia Scrum y aprender a usar herramientas verdareramente utiles como Slack | Trello | Git | Drive | Zoom y muchas mas..., el cual se realizo en su totalidad por video llamada."
+        descripcion="En 4° año de secundario elegui seguir la orientacion de informatica, en la cual aprendi aprendi todo lo necesario para poder ampliar mi conocimiento en el area de programacion, computacion, pensamiento logico, matematicas y ademas de ayudarme a decidir para donde apuntar en mi futuro."
         tiempo="02/03/2015 - 13/12/2019"
         lugar="Monteros - Tucuman - Argentina"
       ></FormacionCard>
