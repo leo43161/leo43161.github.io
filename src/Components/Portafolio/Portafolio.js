@@ -132,7 +132,7 @@ const Portafolio = () => {
           nombre="Rolling News"
           descripcion="Este fue nuestro proyecto final, donde se nos dio una serie de requisitos minimos, el cual cumplimos, pero aun no esta terminada, hay que arreglar varios errores (bugs).En este proyecto nos decempeñamos 5 alumnos (incluyendome), en el cual me eligieron scrum master, tuvimos problemas de tiempo y uno de mis compañeros no pudo participar y se bajo del proyecto, pero a pesar de eso, pudimos realizar un proyecto decente, creando un servidor y una base de datos, utilizando Node js, Express y Mongo DB y habiendo utilizado lo ya aprendido en clases anteriores"
           imagen="rollingNews"
-          url="https://rolling-movies.netlify.app/index.html"
+          url="https://news-rolling.netlify.app/"
           lenguajes={
             <Fragment>
               <Lenguaje
