@@ -13,9 +13,9 @@ const SobreMi = () => {
           </div>
           <div className="d-flex flex-column px-2 text-justify justify-content-start">
             <p style={{fontSize:"19px"}}>
-            Hola soy Leonardo, como recien graduado y de terminar mis estudios como programador Full Stack, me gustaria ser parte de un equipo de trabajo, para poder seguir avanzando y desarrollando mis habilidades, aportando mis conocimientos y metodos en la materia. <br/>
-            Gracias a mi formacion me considero alguien listo para aportar y manejar situaciones de trabajo, ya sea en unidad y/o en equipo. <br/> <br/>
-            Me considero alguien que no se conforma con poco y que al realizar tareas mi mayor critico soy yo mismo. Tambien soy alguien que aprende rapido, que se puede adaptar a casi cualquier ambiente, me gusta aprender de todos y siempre, en lo posible, estoy dispuesto a ayudar a quien lo necesite. 
+            Hola soy Leonardo, como recien graduado y de terminar mis estudios como programador Full Stack, me gustaria ser parte de un equipo de trabajo, para poder seguir avanzando y desarrollando mis habilidades, aportando mis conocimientos y métodos en la materia. <br/>
+            Gracias a mi fórmacion me considero alguien listo para aportar y manejar situaciones de trabajo, ya sea en unidad y/o en equipo. <br/> <br/>
+            Soy alguien pro activo y auto critico de mis actividades. Internalizo repido el aprendizaje, me adapto a cualquier ambiente, me gusta aprender de todos y siempre, en lo posible, estoy dispuesto a ayudar a quien lo necesite. 
             </p>
           </div>
         </div>

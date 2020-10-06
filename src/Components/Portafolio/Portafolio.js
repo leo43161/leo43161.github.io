@@ -44,7 +44,7 @@ const Portafolio = () => {
         {/* 3 */}
         <Diseños
           nombre="Cocu"
-          descripcion="Aquí realicé el maquetado de una paguina con varias paguinas donde empecé a implementar el framework bootstrap, realizando experimentaciones con css y sus efectos."
+          descripcion="Aquí realicé el maquetado de varias páginas donde empecé a implementar el framework bootstrap, realizando experimentaciones con css y sus efectos."
           imagen="cocu"
           url="https://pana321.netlify.app/index.html"
           lenguajes={
@@ -73,7 +73,7 @@ const Portafolio = () => {
         {/* 5 */}
         <Diseños
           nombre="Reloj"
-          descripcion="Practique realizar un reloj con lo enseñado en el curso FullStack, utilizando mi conocimiento y lo enseñado en JavaScript, aplicando los cenceptos de BOM y ademas dando un toque al estilo GTA Vice City."
+          descripcion="Desarrollé un reloj con lo aprendido en el curso FullStack, utilizando mi conocimiento en JavaScript, aplicando los cenceptos de BOM y además dando un toque al estilo GTA Vice City."
           imagen="reloj"
           url="https://reloj-gta.netlify.app/"
           lenguajes={
@@ -102,7 +102,7 @@ const Portafolio = () => {
         {/* 7 */}
         <Diseños
           nombre="Rolling Movie"
-          descripcion="Despues de practicar con JavaScript, avanzamos aprendiendo a usar WebPack y LocalStorage como metodo de almacenamiento local y asi poder realizar un alta baja y edicion de objetos (Productos, Usuarios, Peliculas etc...) Este proyecto se realizo con 3 compañeron donde el objetivo es crear una paguina para ver series y peliculas, donde existira un admin que pueda subir, eliminar y editar, peliculas y categorias, ademas de poner inciar sesion y registrarse"
+          descripcion="Después de practicar con JavaScript, avanzamos usando WebPack y LocalStorage como método de almacenamiento local y así poder realizar un alta baja y edición de objetos (Productos, Usuarios, Películas etc...) Este proyecto se realizó con 3 compañeron donde el objetivo era crear una página para ver series y peliculas, donde existe un admin que puede subir, eliminar y editar, peliculas y categorías, además de poder inciar sesión y registrarse"
           imagen="rollingMovie"
           url="https://rolling-movies.netlify.app/index.html"
           lenguajes={
@@ -130,7 +130,7 @@ const Portafolio = () => {
         ></Diseños>
         <Diseños
           nombre="Rolling News"
-          descripcion="Este fue nuestro proyecto final, donde se nos dio una serie de requisitos minimos, el cual cumplimos, pero aun no esta terminada, hay que arreglar varios errores (bugs).En este proyecto nos decempeñamos 5 alumnos (incluyendome), en el cual me eligieron scrum master, tuvimos problemas de tiempo y uno de mis compañeros no pudo participar y se bajo del proyecto, pero a pesar de eso, pudimos realizar un proyecto decente, creando un servidor y una base de datos, utilizando Node js, Express y Mongo DB y habiendo utilizado lo ya aprendido en clases anteriores"
+          descripcion="Este fué nuestro proyecto final, donde se nos di una serie de requisitos mnimos, el cual cumplimos, pero aún no esta terminada, hay que arreglar varios errores (bugs). En este proyecto nos desempeñamos 5 alumnos (incluyendome), en el cual me eligieron scrum master, tuvimos problemas de tiempo y uno de mis compañeros no pudo participar y se bajo del proyecto, pero a pesar de eso, pudimos realizar un proyecto apto, creando un servidor y una base de datos, utilizando Node js, Express y Mongo DB"
           imagen="rollingNews"
           url="https://news-rolling.netlify.app/"
           lenguajes={
@@ -167,7 +167,7 @@ const Portafolio = () => {
         {/* 2 */}
         <Diseños
           nombre="Fratom Chocolates"
-          descripcion="Realice el diseño de la paguina principal de una panaderia de buenos aires, donde aplique el diseño responsive, css y html."
+          descripcion="Realicé el diseño de la página principal de una panaderia de Buenos Aires, donde apliqué el diseño responsive, css y html."
           imagen="fratom"
           url="https://boring-shockley-382c98.netlify.app/index.html"
           lenguajes={
@@ -190,13 +190,13 @@ const Portafolio = () => {
         {/* 4 */}
         <Diseños
           nombre="Cinema"
-          descripcion="Este fue el primer proyecto que hicimos en el curso de FullStack, el
+          descripcion="Este fué el primer proyecto que hicimos en el curso de FullStack, el
         cual se basó en un blog de peliculas, donde nosotros realizamos
-        reseñas de peliculas o series que nos guste y nos parezca
-        interesante, para realizar este proyecto tuvimos una semana, en lo cual
-        aplicamos el conocimiento que nos otorgaron durante un mes de clase de CSS,
+        reseñas de peliculas o series que nos gustaron y nos parecierom
+        interesantes. Para realizar este proyecto tuvimos una semana, en lo cual
+        aplicamos el conocimiento que nos impartieron durante un mes de clase de CSS,
         HTML y Bootstrap, lo creamos con un grupo de 4 personas
-        incluyendome, donde me encargue de la paguina principal, el navbar y las paguinas de cada pelicula, ademas de eleguir los colores y aplicarlos."
+        incluyendome, donde me encargué de la página principal, el navbar y las páginas de cada pelicula, ademas de elegir los colores y aplicarlos."
           imagen="cinemablog"
           url="https://cinemablog.netlify.app/index.html"
           lenguajes={
@@ -225,7 +225,7 @@ const Portafolio = () => {
         {/* 6 */}
         <Diseños
           nombre="Calculadora"
-          descripcion="Aplique todos mis conocimientos en Css, Html, JavaScript, para realizar una calucladora funcional que permite operaciones de dos terminos."
+          descripcion="Apliqué todos mis conocimientos en Css, Html, JavaScript, para realizar una calucladora funcional que permite operaciones de dos terminos."
           imagen="calculadora"
           url="https://calculadora-leo.netlify.app/"
           lenguajes={
@@ -254,7 +254,7 @@ const Portafolio = () => {
         {/* 8 */}
         <Diseños
           nombre="App Clima"
-          descripcion="Despues de practicar los conceptos necesarios para entender react, empexamos a consumir APIs, esta es una de las que empezamos a usar, es una app web donde colocamos la ciudad, el pais y te muestra el clima del lugar."
+          descripcion="Después de practicar los conceptos necesarios para entender react, comenzamos a consumir APIs, para realizar este trabajo utilicé una API donde colocamos la ciudad, el país y te informa el clima del lugar."
           imagen="appClima"
           url="https://app-clima-leo.netlify.app/"
           lenguajes={
@@ -282,7 +282,7 @@ const Portafolio = () => {
         ></Diseños>
         <Proximamente
           nombre="Proximamente..."
-          descripcion="Planeo seguir aumentando mis habilidades en el hambito de la programacion, el fronten añadiendo mas experiencia al diseño y en el backend al manejar datos, crear servidores, mejorar la seguridad de mis proyectos futuros y manejar mejor mis datos. Tambien me interesaría aprender otros leguajes de programacion, despues de profundizar en los que ya conozco."
+          descripcion="Planeo seguir aumentando mis habilidades en el ámbito de la programación, el frontend añadiendo más experiencia al diseño y en el backend al crear servidores, mejorar la seguridad de mis proyectos futuros y manejar con mas eficiencia mis datos. También me interesaría aprender otros leguajes de programación, después de perfeccionarme para lo que estoy capacitado."
         ></Proximamente>
       </div>
     </div>
