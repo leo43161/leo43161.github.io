@@ -44,7 +44,7 @@ const Portafolio = () => {
         {/* 3 */}
         <Diseños
           nombre="Cocu"
-          descripcion="Aquí realicé el maquetado de varias páginas donde empecé a implementar el framework bootstrap, realizando experimentaciones con css y sus efectos."
+          descripcion="Aquí realicé el maquetado de varias páginas donde empecé a implementar el framework bootstrap, realizando y experimentando con css y sus efectos."
           imagen="cocu"
           url="https://pana321.netlify.app/index.html"
           lenguajes={
@@ -73,7 +73,7 @@ const Portafolio = () => {
         {/* 5 */}
         <Diseños
           nombre="Reloj"
-          descripcion="Desarrollé un reloj con lo aprendido en el curso FullStack, utilizando mi conocimiento en JavaScript, aplicando los cenceptos de BOM y además dando un toque al estilo GTA Vice City."
+          descripcion="Desarrollé un reloj con lo aprendido en el curso FullStack, utilizando mi conocimiento en JavaScript, aplicando los conceptos de BOM y además dando un toque al estilo GTA Vice City."
           imagen="reloj"
           url="https://reloj-gta.netlify.app/"
           lenguajes={
@@ -130,7 +130,7 @@ const Portafolio = () => {
         ></Diseños>
         <Diseños
           nombre="Rolling News"
-          descripcion="Este fué nuestro proyecto final, donde se nos di una serie de requisitos mnimos, el cual cumplimos, pero aún no esta terminada, hay que arreglar varios errores (bugs). En este proyecto nos desempeñamos 5 alumnos (incluyendome), en el cual me eligieron scrum master, tuvimos problemas de tiempo y uno de mis compañeros no pudo participar y se bajo del proyecto, pero a pesar de eso, pudimos realizar un proyecto apto, creando un servidor y una base de datos, utilizando Node js, Express y Mongo DB"
+          descripcion="Se desarrolló una página web creando un servidor y una base de datos, utilizando Node js, Express y Mongo DB, ademas de lo ya implementado en proyectos anteriores, dicho proyecto está en proceso de finalización, en el cual nos desempeñamos 5 alumnos (incluyendome), en donde fuí seleccionado scrum master, cumpliendo hasta la fecha los requisitos mínimos"
           imagen="rollingNews"
           url="https://news-rolling.netlify.app/"
           lenguajes={
@@ -191,12 +191,12 @@ const Portafolio = () => {
         <Diseños
           nombre="Cinema"
           descripcion="Este fué el primer proyecto que hicimos en el curso de FullStack, el
-        cual se basó en un blog de peliculas, donde nosotros realizamos
-        reseñas de peliculas o series que nos gustaron y nos parecierom
-        interesantes. Para realizar este proyecto tuvimos una semana, en lo cual
+        cual se basó en un blog de peliculas, donde realizamos
+        reseñas de peliculas o series que nos gustaron y nos parecieron
+        interesantes. Para realizar este proyecto tuvimos una semana, en la cual
         aplicamos el conocimiento que nos impartieron durante un mes de clase de CSS,
-        HTML y Bootstrap, lo creamos con un grupo de 4 personas
-        incluyendome, donde me encargué de la página principal, el navbar y las páginas de cada pelicula, ademas de elegir los colores y aplicarlos."
+        HTML y Bootstrap, lo llevamos a cabo con un grupo de 4 personas
+        (incluyendome), donde me encargué de la página principal, el navbar y las páginas de cada pelicula, además de elegir los colores y aplicarlos."
           imagen="cinemablog"
           url="https://cinemablog.netlify.app/index.html"
           lenguajes={
@@ -225,7 +225,7 @@ const Portafolio = () => {
         {/* 6 */}
         <Diseños
           nombre="Calculadora"
-          descripcion="Apliqué todos mis conocimientos en Css, Html, JavaScript, para realizar una calucladora funcional que permite operaciones de dos terminos."
+          descripcion="Apliqué todos mis conocimientos en Css, Html, JavaScript, para realizar una calucladora funcional que permite operaciones de dos términos."
           imagen="calculadora"
           url="https://calculadora-leo.netlify.app/"
           lenguajes={
@@ -254,7 +254,7 @@ const Portafolio = () => {
         {/* 8 */}
         <Diseños
           nombre="App Clima"
-          descripcion="Después de practicar los conceptos necesarios para entender react, comenzamos a consumir APIs, para realizar este trabajo utilicé una API donde colocamos la ciudad, el país y te informa el clima del lugar."
+          descripcion="Después de practicar los conceptos necesarios para entender react, comenzamos a consumir APIs. Para realizar este trabajo utilicé una API donde colocamos la ciudad, el país y te informa el clima del lugar."
           imagen="appClima"
           url="https://app-clima-leo.netlify.app/"
           lenguajes={
@@ -282,7 +282,7 @@ const Portafolio = () => {
         ></Diseños>
         <Proximamente
           nombre="Proximamente..."
-          descripcion="Planeo seguir aumentando mis habilidades en el ámbito de la programación, el frontend añadiendo más experiencia al diseño y en el backend al crear servidores, mejorar la seguridad de mis proyectos futuros y manejar con mas eficiencia mis datos. También me interesaría aprender otros leguajes de programación, después de perfeccionarme para lo que estoy capacitado."
+          descripcion="Mis aspiraciones son seguir profundizando mis habilidades en el ámbito de la programación, el frontend añadiendo más experiencia al diseño y en el backend al crear servidores, mejorar la seguridad de mis proyectos futuros y manejar con más eficiencia mis datos. También me interesaría aprender otros leguajes de programación, después de perfeccionarme para lo que estoy capacitado."
         ></Proximamente>
       </div>
     </div>
