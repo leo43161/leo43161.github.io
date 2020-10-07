@@ -33,7 +33,7 @@ const Headers = () => {
             <FontAwesomeIcon icon={faGithub} size="2x"></FontAwesomeIcon>
               <a
                 className="text-light d-flex align-items-center ml-2"
-                href="https://www.linkedin.com/in/leonardo-palavecino-5a01a11b7"
+                href="https://github.com/leo43161"
               >
                 Leonardo Palavecino
               </a>
