@@ -22,11 +22,11 @@ const Formacion = () => {
         lugar="Monteros - Tucuman - Argentina"
       ></FormacionCard>
       <FormacionCard
-        academia="Escuela Tecnica N°1"
+        academia="Rolling Code"
         titulo="English for work Level: Beginners"
         descripcion="Este curso explica lo esencial de la gramática y el vocabulario y además, la
         pronunciación, realizando clases prácticas, dialogos, lectura de textos simples y trabajos con videos y audios."
-        tiempo="12/06/2020 - En proceso..."
+        tiempo="12/06/2020 - 30/09/2020"
         lugar="San Miguel de Tucuman - Tucuman - Argentina"
       ></FormacionCard>
     </div>
